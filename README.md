@@ -8,8 +8,8 @@ Redux State Management: State is managed using Redux for better application-wide
 
 ## Technologies Used  
 HTML  
-CSS 
-JAVASCRIPT  
-REACT  
-REDUX  
-react-markdown  
+CSS  
+JavaScript   
+React  
+Redux Toolkit   
+react-markdown (markdown language library)  
