@@ -10,9 +10,11 @@ const Editor = () => {
 
 
     return (
-        <div className='editorWrap'>
-            <div className="toolbar"><i class="fa fa-free-code-camp" title="no-stack-dub-sack"></i>Editor</div>
-            <textarea id="editor" typeof='text' style={{height:"108px"}} onChange={handleChange}>{text}</textarea>
+        <div className="d-flex justify-content-center">
+        <div className="editorWrap">
+            <div className="toolbar rounded-top"><i className="fa fa-free-code-camp" title="no-stack-dub-sack"></i>Editor</div>
+            <textarea id="editor" typeof='text'  style={{height:"108px"}} onChange={handleChange}>{text}</textarea>
+        </div>
         </div>
     );
 }
